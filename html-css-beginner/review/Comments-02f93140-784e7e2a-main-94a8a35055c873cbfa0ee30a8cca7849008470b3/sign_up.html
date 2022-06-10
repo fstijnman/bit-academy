@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form method="get">
+        <h1>Inschrijven</h1>
+        <label for="Naam">Naam:</label>
+        <input type="text" value="Naam" id="Naam">
+        <label for="Emailadres">Emailadres:</label>
+        <input type="email" id="Emailadres">
+        <label for="Telefoonnummer">Telefoonnummer:</label>
+        <input type="number" id="Telefoonnummer">
+        <label for="Pincode">Pincode:</label>
+        <input type="password" id="Pincode">
+
+        <label for="Maanden">Kies een maand</label>
+        <select name="Maanden" id="Maanden">
+            <option value="Kies een maand">kies een maand</option>
+            <option value="Januari">januari</option>
+            <option value="februari">februari</option>
+            <option value="Maart">maart</option>
+            <option value="April">april</option>
+            <option value="mei">mei</option>
+            <option value="juni">juni</option>
+            <option value="july">july</option>
+            <option value="augustus">augustus</option>
+            <option value="september">september</option>
+            <option value="october">october</option>
+            <option value="november">november</option>
+            <option value="december">december</option>
+        </select>
+
+        <p>Ik hou van voetbal</p>
+        <input type="radio" id="ja" name="ja/nee" value="ja" checked>
+        <label for="ja">ja</label>
+        <input type="radio" id="nee" name="ja/nee" value="nee" checked>
+        <label for="nee">nee</label>
+        <p>Favoriete dagen van de week</p>
+        <input type="checkbox" id="Maandag" name="Maandag" value="Maandag">
+        <label for="Maandag"> Maandag</label><br>
+        <input type="checkbox" id="Dinsdag" name="Dinsdag" value="Dinsdag">
+        <label for="Dinsdag"> Dinsdag</label><br>
+        <input type="checkbox" id="Woensdag" name="Woensdag" value="Woensdag">
+        <label for="Woensdag"> Woensdag</label><br>
+        <input type="checkbox" id="Donderdag" name="Donderdag" value="Donderdag">
+        <label for="Donderdag"> Donderdag</label><br>
+        <input type="checkbox" id="Vrijdag" name="Vrijdag" value="Vrijdag">
+        <label for="Vrijdag"> Vrijdag</label><br>
+        <input type="checkbox" id="Zaterdag" name="Zaterdag" value="Zaterdag">
+        <label for="Zaterdag"> Zaterdag</label><br>
+        <input type="checkbox" id="Zondag" name="Zondag" value="Zondag">
+        <label for="Zondag"> Zondag</label><br>
+        <p>Laat een berichtje achter.</p>
+        <label for="tekstveld">tekstveld</label>
+        <textarea id="tekstveld" name="tekstveld" rows="4" cols="50">
+  Type hier je tekst.
+  </textarea>
+        <p>
+            <input type="submit" name="emailadres">
+        </p>
+
+    </form>
+</body>
+
+</html>

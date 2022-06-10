@@ -1,0 +1,18 @@
+h1 {
+    color: red;
+}
+h2 {
+    font-size: larger;
+    color:green
+}
+h3{
+    font-size: medium;
+    color: aqua;
+}
+body{
+    background-color: beige ;
+}
+img {
+    height: 200px;
+    width: 350px;
+}

@@ -1,0 +1,38 @@
+h1 {
+    color: black;
+    border: 4px;
+    border-style: dotted;
+    background-color: yellow;
+    opacity: 0.4;
+}
+
+p {
+    font-size: medium;
+    color: goldenrod;
+}
+
+div {
+    border: thin coral;
+  }
+
+  img {
+      height: auto;
+      width: 100px;
+  }
+
+.ananas {
+    background-color: lightcoral;
+    opacity: 0.8;
+}
+
+li {
+    font-size: small;
+}
+
+span {
+    color: rgb(80, 135, 199);
+}
+
+section > article {
+    background-color: rgb(81, 36, 99);
+}

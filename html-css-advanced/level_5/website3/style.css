@@ -1,0 +1,98 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+}
+
+.navbar {
+    display: flex;
+    background-color: #000563;
+    height: 60px;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.navbar img {
+    padding: 8px;
+}
+
+.logo {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu img {
+    height: 25px;
+}
+
+.feedback {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: green;
+    margin: 10px;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    height: 25px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.tasks table {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-collapse: collapse;
+}
+
+.tasks table td {
+    padding: 10px;
+    border: solid rgb(220, 220, 220);
+    border-width: 1px 0;
+}
+
+
+.tasks table tr:first-child td {
+    padding: 18px;
+    font-size: 12px;
+}
+
+button {
+    background-color: #3ca771;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.explanation {
+    width: 200px;
+    background-color: white;
+    padding: 20px;
+    margin: 40px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.explanation img {
+    width: 200px;
+}

@@ -1,0 +1,40 @@
+h1 {
+    color: red;
+    font-size: xx-large
+}
+
+p {
+    color: blue;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+tabel,
+td,
+th {
+    border: solid black 1px;
+    padding: 5px;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.blue {
+    background-color: cornflowerblue;
+}
+
+.yellow {
+    background-color: khaki;
+}
+
+a:hover {
+    background-color: green;
+    cursor: pointer;
+}

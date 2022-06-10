@@ -1,0 +1,30 @@
+li {
+    font-size: 30px;
+    display: inline;
+    padding: 15px;
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.articlesection {
+    background-color: beige;
+}
+
+.center {
+    border-bottom: solid;
+}
+
+.top {
+    border-bottom: double;
+}
+
+footer {
+    text-align: center;
+    background-color: green;
+    padding: 15px;
+}

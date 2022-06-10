@@ -1,0 +1,30 @@
+body {
+    background-color: aliceblue;
+}
+
+article {
+    background-color: red;
+    margin-top: 20px;
+}
+
+header {
+    border-bottom: solid grey;
+}
+
+nav {
+    background-color: lightblue;
+    text-align: center;
+    border-bottom: solid grey;
+    padding-bottom: 5px;
+}
+
+nav a {
+    margin: 10px;
+}
+
+footer {
+    background-color: azure;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}

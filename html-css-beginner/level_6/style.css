@@ -1,0 +1,17 @@
+input {
+    display:block;
+    width: 200px;
+    border-radius: 5px;
+    margin: .4rem;
+
+}
+
+textarea {
+    resize: none;
+    outline: none;
+    border-color: red;
+}
+
+textarea:focus {
+    border-color: green;
+}

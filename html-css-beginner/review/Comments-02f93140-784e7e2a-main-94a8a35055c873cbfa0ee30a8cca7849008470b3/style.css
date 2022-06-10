@@ -1,0 +1,9 @@
+p {
+    border: 20px solid red;
+    border-radius: 5px;
+  }
+
+  textarea:focus {
+    border: 20px solid rgb(0, 255, 55);
+    border-radius: 5px;
+  }

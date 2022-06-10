@@ -1,0 +1,35 @@
+body {background-color: rgb(222, 248, 222);
+    padding-inline: 10px;
+}
+
+h1 {
+    color: green
+}
+
+h2 {
+    color: darkolivegreen;
+}
+
+div {
+    background-color: beige;
+    border-radius: 3px;
+    border-color: olive;
+    padding-inline: 20px;
+}
+
+span {
+    color: red;
+}
+
+p   {
+    background-color: lightblue;
+}
+
+ul, ol {
+    font-size: small;
+    color:darkgreen
+}
+
+img {
+    width: 200px;
+}

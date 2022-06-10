@@ -1,0 +1,23 @@
+#optie-1 {
+    position: static;
+    left: 0;
+    top: 0;
+}
+
+#optie-2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#container-1 {
+    position: relative;
+    width: 50px;
+    height: 25px;
+    background-color: red;
+}
+
+#optie-3 {
+    position: fixed;
+    left: 75px
+}

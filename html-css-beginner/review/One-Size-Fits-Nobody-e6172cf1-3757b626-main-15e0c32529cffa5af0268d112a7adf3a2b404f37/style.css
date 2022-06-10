@@ -1,0 +1,23 @@
+h1 {
+    color: #000000;
+    background-color: #f957b0;
+}
+
+Body {
+background-color: darksalmon;
+color: rgba(43, 29, 191, 0.861);
+background-color: #f957b06c;
+font-size: 19px;
+}
+
+h2 {
+    color: hsl(190, 100%, 50%);
+    color: #000000;
+    background-color: #f957b0;
+    font-size: 22px;
+}
+
+img[src="foto.jpg"] {
+    width: 20%;
+    height: 20%;
+}

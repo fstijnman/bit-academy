@@ -1,0 +1,27 @@
+div {
+    display: flex;
+    
+}
+.Review {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    flex: 3;
+}
+
+.Review>div {
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+.reclame {
+    color: white;
+    background-color: darkblue;
+    border-radius: 5px;
+    flex-direction: column;
+    padding: 10px;
+    flex:1;
+}
+button {
+    width: fit-content;
+}

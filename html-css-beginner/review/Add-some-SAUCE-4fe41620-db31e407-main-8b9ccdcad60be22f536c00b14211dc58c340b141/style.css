@@ -1,0 +1,31 @@
+body {
+    background-color: lightblue;
+}
+
+
+h1 {
+    color: red;
+    font-size: 50px;
+}
+
+h2 {
+    color: blue;
+    font-size: 30px;
+}
+
+div {
+    background-color: rgb(12, 235, 30);
+}
+
+span {
+    color: rgb(187, 255, 0);
+    font-size: 30px;
+}
+
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+}

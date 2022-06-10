@@ -1,0 +1,231 @@
+/* Add a black background color to the top navigation */
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: rgb(85, 85, 85);
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: orange;
+}
+
+a.signin {
+    border-radius: 5px;
+    background-color: white;
+    border: solid #f96932 1px;
+    color: #f96932;
+}
+
+a.signin:hover {
+    background-color: #f96932;
+    color: white;
+    cursor: pointer;
+}
+
+.hr_top {
+    border: solid rgb(152, 152, 152) 0.5px;
+}
+
+.wolfram_logo {
+    width: 470px;
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.search_bar {
+    width: 700px;
+    margin: auto;
+}
+
+.search_input {
+    border: solid orange 2px;
+    border-radius: 5px;
+    width: 700px;
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.search_buttons {
+    font-family: 'Courier New';
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.search_types {
+    background-color: rgb(236, 236, 236);
+    display: inline;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.search_options {
+    float: right;
+    display: inline;
+}
+
+.search_options span {
+    margin: 0px 10px;
+    color: rgb(85, 85, 85);
+}
+
+.search_options span:hover {
+    cursor: pointer;
+    color: darkred;
+}
+
+.natural_language {
+    cursor: pointer;
+    color: orange;
+    padding: 5px;
+    border: solid rgba(255, 188, 63, 0.684) 2px;
+    display: inline;
+    border-radius: 5px;
+}
+
+.math_input {
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline;
+    color: purple;
+    padding: 5px;
+}
+
+.math_input:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+.explain_heading {
+    color: rgb(85, 85, 85);
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+}
+
+.cats {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    color: grey;
+}
+
+.category1 {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.category1 h3 {
+    cursor: pointer;
+    color: purple;
+}
+
+.category2 {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.category2 h3 {
+    cursor: pointer;
+    color: green;
+}
+
+.category3 {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.category3 h3 {
+    cursor: pointer;
+    color: red;
+}
+
+.category4 {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.category4 h3 {
+    cursor: pointer;
+    color: blue;
+}
+
+.category1 span {
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    padding: 10px;
+    border: solid grey 1px;
+    border-radius: 5px;
+}
+
+.category1 span:hover {
+    color: purple;
+    border: solid purple 1px;
+}
+
+.category2 span {
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    padding: 10px;
+    border: solid grey 1px;
+    border-radius: 5px;
+    border: solid grey 1px;
+    border-radius: 5px;
+}
+
+.category2 span:hover {
+    color: green;
+    border: solid green 1px;
+}
+
+
+.category3 span {
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    padding: 10px;
+    border: solid grey 1px;
+    border-radius: 5px;
+}
+
+.category3 span:hover {
+    color: red;
+    border: solid red 1px;
+    border-radius: 5px;
+}
+
+.category4 span {
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    padding: 10px;
+    border: solid grey 1px;
+    border-radius: 5px;
+}
+
+.category4 span:hover {
+    color: blue;
+    border: solid blue 1px;
+    border-radius: 5px;
+}

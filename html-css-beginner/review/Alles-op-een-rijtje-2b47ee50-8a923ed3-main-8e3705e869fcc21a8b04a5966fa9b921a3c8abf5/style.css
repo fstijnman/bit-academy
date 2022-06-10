@@ -1,0 +1,16 @@
+
+li {
+    display: inline;
+}
+
+input { 
+    display: block;
+}
+
+label {
+    display: block;
+}
+
+textarea {
+    display: block;
+}

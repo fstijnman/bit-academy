@@ -1,0 +1,27 @@
+h1 {
+  color: forestgreen;
+  font-size: xx-large;
+}
+h2 {
+  color: blue;
+  font-size: medium;
+}
+ol {
+  color: blue;
+  font-size: medium;
+}
+ul {
+  color: blue;
+  font-size: medium;
+}
+body {
+  background-color: rgb(214, 248, 191);
+}
+
+.mezelf {
+  background-color: gray;
+}
+
+img {
+  width: 100px;
+}

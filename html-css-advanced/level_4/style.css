@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(229, 96, 0);
+}
+
+.navbar p {
+    padding: 5px 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #FFDEA6;
+    align-items: center;
+    justify-content: center;
+}
+
+.news {
+    width: 45%;
+    padding: 0px 10px;
+}
+
+.news:nth-child(1) {
+    text-align: center;
+    width: 100%;
+}
+
+.news#breaking {
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    order: -3;
+}

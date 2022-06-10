@@ -1,0 +1,62 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: #000563;
+    height: 60px;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.navbar img {
+    padding: 8px;
+}
+
+.logo {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu img {
+    height: 25px;
+}
+
+.feedback {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: green;
+    margin: 10px;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    height: 25px;
+}
+
+.content {
+    display: flex;
+}
+
+.explanation {
+    width: 200px;
+    background-color: white;
+}

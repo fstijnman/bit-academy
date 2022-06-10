@@ -1,0 +1,6 @@
+th,
+td {
+    box-shadow: 1px 0.5px rgb(189, 189, 189);
+    padding: 15px;
+    border: solid rgb(0, 0, 0) 1px;
+}

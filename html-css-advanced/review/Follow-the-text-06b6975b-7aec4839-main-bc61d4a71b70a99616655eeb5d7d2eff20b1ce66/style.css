@@ -1,0 +1,10 @@
+.blauw {
+    position: absolute;
+    top: 20%;
+    left: 10%
+}
+
+.rood {
+    position: absolute;
+    z-index: 1;
+}

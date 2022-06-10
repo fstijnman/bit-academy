@@ -1,0 +1,42 @@
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex: 3;
+}
+
+.ad-links,
+.ad-rechts {
+    background-color: rgb(30, 30, 120);
+    color: white;
+    border-radius: 4px;
+    padding: 20px;
+    width: 300px;
+    flex: 1;
+}
+
+.ad-links {
+    margin-left: 30px;
+}
+
+.ad-rechts {
+    margin-right: 30px;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+    width: 420px;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

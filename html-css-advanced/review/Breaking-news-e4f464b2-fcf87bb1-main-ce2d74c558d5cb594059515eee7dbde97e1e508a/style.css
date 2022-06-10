@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(210, 103, 21);
+    flex: 1;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news:first-child {
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(248, 236, 197);
+    text-align: center;
+
+}
+
+.news:nth-child(2) {
+    background-color: rgb(248, 236, 197);
+    flex: 1;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.news:nth-child(3) {
+    background-color: rgb(248, 236, 197);
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.news:last-child {
+    background-color: rgb(248, 236, 197);
+    flex: 1;
+    padding-top: 40px;
+    padding-left: 225px;
+    padding-right: 225px;
+    order: -4;
+    text-align: center;
+    font-size: 25px;
+}
